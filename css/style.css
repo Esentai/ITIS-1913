@@ -1476,12 +1476,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 ---------------------*/
 
 @media (min-width: 1200px) {
+	.logo{
+		width: 140px;
+		height: 140px;
+	}
+	.hs-item{
+		height: 100vh;
+	}
 	.container {
 		max-width: 1175px;
 	}
 }
 
 @media (max-width: 1750px) {
+	.logo{
+		width: 140px;
+		height: 140px;
+	}
+	.hs-item{
+		height: 100vh;
+	}
 	.hs-item .next-hs {
 		width: 210px;
 		height: 250px;
@@ -1506,6 +1520,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.logo{
+		width: 140px;
+		height: 140px;
+	}
+	.hs-item{
+		height: 100vh;
+	}
 	.site-navbar.navbar-dark .navbar-nav .nav-link {
 		padding-right: 15px;
 		padding-left: 15px;
@@ -1521,6 +1542,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo{
+		width: 110px;
+		height: 110px;
+	}
+	.hs-item{
+		height: 100vh;
+	}
 	.site-navbar {
 		padding: 15px 70px;
 		display: block;
@@ -1586,6 +1614,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+	.logo{
+		width: 80px;
+		height: 80px;
+	}
 	.site-navbar.navbar-dark .navbar-nav .nav-link {
 		padding-right: 0;
 		padding-left: 0;
@@ -1600,8 +1632,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 		right: 15px;
 	}
 	.hs-item {
-		padding: 250px 15px;
-		height: auto;
+		/* padding: 250px 15px;*/
+		height: 285px; 
 	}
 	.hs-item h2 {
 		font-size: 50px;
@@ -1697,6 +1729,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.logo{
+		width: 70px;
+		height: 70px;
+	}
 	.site-navbar {
 		padding: 15px;
 	}
@@ -1770,8 +1806,6 @@ body{
 	left: 15px;
 	top: 15px;
 	z-index: 99;
-	width: 140px;
-	height: 140px;
 	background: url(../img/logo.png) no-repeat;
 	background-size: cover;
 	background-position: center center;
